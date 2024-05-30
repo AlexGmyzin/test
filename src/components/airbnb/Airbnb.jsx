@@ -14,12 +14,12 @@ const Airbnb = () => {
       <div className={s.block}>
          <header>
             <div className={s.header__logo}>
-               <img src="/img/gallery/Vector.png" alt="" />
+               <img src={`${process.env.PUBLIC_URL}/img/gallery/Vector.png`} />
             </div>
          </header>
          <main>
             <div className={s.main__banner}>
-               <img src="/img/gallery/Group 77.png" alt="" />
+               <img src={`${process.env.PUBLIC_URL}/img/gallery/Group 77.png`} alt="" />
             </div>
             <div className={s.main__content}>
                <h2>Online Experiences</h2>

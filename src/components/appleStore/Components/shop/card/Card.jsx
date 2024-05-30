@@ -44,7 +44,7 @@ const Card = (props) => {
          } */}
          
          <div className="phone__image">
-            <img src={props.img} alt="" />
+            <img src={`${process.env.PUBLIC_URL}` + props.img} alt="" />
          </div>
          <div className="phone__subtitle">{props.title}</div>
             <p className='phone__description'>{props.description}</p>
@@ -52,7 +52,7 @@ const Card = (props) => {
                <div className="phone__footer">
                   <span>{props.price} руб</span> 
                   <button className={ context.itemAdded(props.id) ? "btnModTwo" : "btnMod"} onClick={onClickPlus}>
-                     <img src={context.itemAdded(props.id) ? "/img/done.png" : "./img/icons8.png"} alt="" />
+                     <img src={context.itemAdded(props.id) ? `${process.env.PUBLIC_URL}/img/done.png` : `${process.env.PUBLIC_URL}/img/icons8.png` } alt="" /> 
                   </button>   
             </div>    
       </div> 

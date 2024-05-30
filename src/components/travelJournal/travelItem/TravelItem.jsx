@@ -5,11 +5,11 @@ const TravelItem = (props) => {
    return(
       <div className={s.item}>
          <div className={s.itemImage}>
-            <img src={props.image} alt="" /> 
+            <img src={`${process.env.PUBLIC_URL}` + props.image} alt="" /> 
          </div>
          <div className={s.itemContent}>
             <div className={s.itemLocation}>
-               <img src="/img/gallery/placeholder.png" alt="" />
+               <img src={`${process.env.PUBLIC_URL}/img/gallery/placeholder.png`} />
                <p>{props.country}</p>
                <a href="">View on Google Maps</a>
             </div>

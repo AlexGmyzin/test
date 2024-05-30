@@ -11,7 +11,7 @@ const CardState = () => {
       star: true
    })
 
-   let url = isCard.star ? 'star 1.png' : 'star2.png'
+   let url = isCard.star ? `star 1.png`: `star2.png`
 
    function clickToStar() {
       setIsCard(prevCard => ({
@@ -25,10 +25,10 @@ const CardState = () => {
       <div className={s.cardState}>
          <div className={s.item}>
             <div className={s.image}>
-               <img src="img/gallery/user.png" alt="" />
+               <img src= {`${process.env.PUBLIC_URL}/img/gallery/user.png`} alt="" />
             </div>
             <div className={s.star}>
-               <img onClick={clickToStar} src={`img/gallery/${url}`} alt="" />
+               <img onClick={clickToStar} src={`${process.env.PUBLIC_URL}/img/gallery/${url}`} alt="" />
             </div>
             <h2>{isCard.name}</h2>
             <p>{isCard.email}</p>

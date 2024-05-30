@@ -42,56 +42,56 @@ const Preview = () => {
             <div className="gridBlock">
                <div className="gridItem">
                   <a className="lay" href="https://alexgmyz.github.io/">
-                     <img src="/img/1.jpg" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/1.jpg`} alt="Описание" />
                   </a>
                   <h2>Действующий сайт-платформа для обучения игре на гитаре. </h2>
                   <p>Адаптивный под различные устройства проект. Совокупность Frontend решений таких как табы, свайпер, форма обратной связи, яркая анимация.Так же сайт имеет форму авторизации для доступа к материалам с уроками. Код 12345 </p>
                </div>
                <div className="gridItem">
                   <a className="lay" href="https://alexgmyz.github.io/lend/1/bicycle.html">
-                     <img src="/img/2.jpg" alt="" />
+                     <img src={`${process.env.PUBLIC_URL}/img/2.jpg`} alt="Описание" /> 
                   </a>
                   <h2>Лендинг с Figma "Bicycle" </h2>
                   <p>Один из первых лендингов с макета Figma/ Полностью адаптивный дизайн, работа с flex и grid контейнерами. </p>
                </div>
                <div className="gridItem">
                   <a className="lay" href="https://alexgmyz.github.io/lend/2/guitar.html">
-                     <img src="/img/3.jpg" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/img/3.jpg`} alt="Описание" /> 
                   </a>
                   <h2>Сайт визитка преподавателя игры на гитаре </h2>
                   <p>Одна из первых попыток создать полноценную одностраничную сайт визитку преподавателя. Форма регистрации, флекс контейнеры, галерея. </p>
                </div>
                <div className="gridItem">
                   <a className="lay" href="https://alexgmyz.github.io/lend/3/paralax.html">
-                     <img src="/img/4.jpg" alt="" />
+                     <img src={`${process.env.PUBLIC_URL}/img/4.jpg`} alt="Описание" /> 
                   </a>
                   <h2> Paralax + Bottom  </h2>
                   <p>Интересный проект приветственного фулскрин окна с паралакс эффектом. Крое этого необычная анимация кнопки @Freedom</p>
                </div>
                <div className="gridItem">
                   <a className="lay" href="https://alexgmyz.github.io/lend/4/business.html">
-                     <img src="/img/5.jpg" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/img/5.jpg`} alt="Описание" /> 
                   </a>
                   <h2> Лендинг с Figma "Business" </h2>
                   <p>Еще один минималистичный лендинг с FIgma Design. Полная адаптивность. Меню бургер. Карточки товаров.</p>
                </div>
                <div className="gridItem">
                   <a className="lay" href="https://alexgmyz.github.io/lend/7/list.html">
-                     <img src="/img/6.jpg" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/img/6.jpg`} alt="Описание" /> 
                   </a>
                   <h2> Способ организации + анимация многоуровневого списка </h2>
                   <p>Создание и оформление многоуровего списка с множественным использованием псевдоэлементов before и after </p>
                </div>
                <div className="gridItem">
                   <a className="lay" href="https://alexgmyz.github.io/lend/5/prime.html">
-                     <img src="/img/7.jpg" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/img/7.jpg`} alt="Описание" /> 
                   </a>
                   <h2> Лендинг с Figma "Prime One" </h2>
                   <p>Лендинг с FIgma Design. Полная адаптивность. Меню бургер. Карточки товаров.</p>
                </div>
                <div className="gridItem">
                   <a className="lay" href="https://alexgmyz.github.io/lend/6/exam.html">
-                     <img src="/img/8.jpg" alt="" />
+                     <img src={`${process.env.PUBLIC_URL}/img/8.jpg`} alt="Описание" /> 
                   </a>
                   <h2> Сайт First/ </h2>
                   <p>Один из первых сверстанных на обучении лендингов без использования макета </p>

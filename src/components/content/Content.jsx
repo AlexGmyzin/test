@@ -8,13 +8,13 @@ const Content = () => {
          <Item logo="A"
                title="æsthetics"
                subtitle="Советую ознакомиться))"
-               image="/img/gallery/first.jpg"
+               image={`${process.env.PUBLIC_URL}/img/gallery/first.jpg`}
                count="24"
                />
          <Item logo="D"
                title="TheDUMP"
                subtitle="Атмосфера наслаждения"
-               image="/img/gallery/third.jpg"
+               image={`${process.env.PUBLIC_URL}/img/gallery/third.jpg`}
                count="57"
                color="s.green"
                />
