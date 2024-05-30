@@ -8,7 +8,7 @@ const Sidebar = () => {
          <ul className={s.list}>
             <li>
                <img src="/img/folders.png" alt="" className={s.icon} />
-               <NavLink to='/' className={s.link}>Главня</NavLink>
+               <NavLink to='/test' className={s.link}>Главная</NavLink>
             </li> 
             <li>
                <img src="/img/folders.png" alt="" className={s.icon} />

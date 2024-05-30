@@ -23,7 +23,7 @@ function App() {
           <div className="middle">
             <Sidebar />
             <Routes>
-              <Route path='/' element={
+              <Route path='/test' element={
                   <Preview/>
                 }/>  
                 <Route path='/messages' element={
