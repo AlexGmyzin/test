@@ -1,0 +1,40 @@
+
+header {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   align-items: center;
+   background-color: black;
+   color: #fff;
+   padding: 0 20px;
+ }
+ 
+ .nav__item {
+   color: #001AFF;
+   background-color: black;
+   font-weight: bold;
+   font-size: 24px;
+   text-transform: uppercase;
+ }
+ .nav__item:hover {
+   color: #fff;
+ }
+
+ .nav__count {
+  line-height: 2;
+  background-color: #001AFF;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 5px;
+ }
+ 
+ nav {
+   font-weight: bold;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 30px;
+   
+ }
+ a {
+   text-decoration: none;
+   cursor: pointer;
+ }

@@ -1,0 +1,40 @@
+
+.header__logo {
+   height: 70px;
+   display: flex;
+   align-items: center;
+   border-bottom: 2px solid #fff;
+}
+.header__logo img{
+   min-width: 100px;
+   padding-left: 30px;
+}
+.main__banner {
+   padding: 100px 0;
+   text-align: center;
+}
+.main__content {
+   padding: 0 36px;
+   padding-bottom: 30px;
+}
+.main__content h2 {
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 110%;
+}
+.main__content p {
+   max-width: 450px;
+   font-size: 22px;
+   letter-spacing: 1.2px;
+   line-height: 1.5;
+   line-height: 110%;
+
+}
+.main__card {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   overflow: scroll;
+}
+.main__card::-webkit-scrollbar {
+   display: none;
+ }

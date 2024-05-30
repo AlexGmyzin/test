@@ -1,0 +1,23 @@
+
+.cart__image img {
+   max-width: 100px;
+ }
+ .cart__image {
+   justify-self: center;
+ }
+ .cart__item {
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+   border: 1px solid grey;
+   border-radius: 15px;
+   align-items: center;
+   margin: 10px 0;
+ }
+ .cart__right {
+   justify-self: end;
+   padding-right: 30px;
+ }
+ .cart__text {
+   font-size: 20px;
+   font-weight: bold;
+ }

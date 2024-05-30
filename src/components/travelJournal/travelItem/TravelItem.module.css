@@ -1,0 +1,47 @@
+.item {
+   display: flex;
+   max-width: 100%;
+}
+
+.itemImage  {
+   flex: 0 0 30%;
+   padding: 20px;
+
+
+}     
+.itemImage img {
+   min-width: 100%;
+}  
+.itemContent {
+   flex: 1 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}         
+
+.itemLocation{
+   display: flex;
+   align-items: center;
+}
+
+.itemLocation p {
+   letter-spacing: 1.3px;
+   text-transform: uppercase;
+   padding: 0 10px;
+}
+.itemLocation a {
+   color: #918E9B;
+
+}
+.itemTitle{
+   font-weight: bold;
+   font-size: 37px;
+   padding: 10px 0;
+   
+}
+.itemDate{
+   font-weight: bold;
+}
+.itemText{
+   max-width: 400px;
+}
